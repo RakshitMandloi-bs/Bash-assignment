@@ -32,7 +32,6 @@ grep Started logfile.log|sed 's/.*Started \([^ ]*\) "\([^"?]*\).*/\1 "\2"/'|sort
 - `sed 's/.*Started \([^ ]*\) "\([^"?]*\).*/\1 "\2"/'` - Extract HTTP method and path (without query params)
 - `sort|uniq -c` - Sort and count unique occurrences
 - `sort -nr` - Sort by count in descending order
-- `sort -nr` - Sort by count in descending order
 
 ## Files
 
